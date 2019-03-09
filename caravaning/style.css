@@ -1,0 +1,228 @@
+@import url(css/aos.css);
+@import url(css/bootstrap-datepicker.css);
+@import url(css/bootstrap.min.css);
+@import url(css/jquery-ui.css);
+@import url(css/magnific-popup.css);
+@import url(css/mediaelementplayer.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/owl.theme.default.min.css);
+@import url(css/style.css);
+@import url(https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css);
+@import url(fonts/flaticon/font/flaticon.css);
+@import url(fonts/icomoon/style.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700);
+@import url(css/404.css);
+@import url(css/progressbar.css);
+@import url(css/masonry.css);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/solid.css);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/regular.css);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/brands.css);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/fontawesome.css);
+
+.screen-reader-text{
+    display: none;
+}
+
+.page-numbers{
+    margin-left: 20px;
+}
+
+.logged-in-as{
+    display: none;
+}
+
+#respond h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comment-form-comment{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-form-comment label{
+    display: none;
+}
+
+#comment{
+    width: 80%;
+    min-width: 270px;
+}
+
+.form-submit{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-form-author{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.comment-form-author label{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#author{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 270px;
+    margin-top: 20px;
+}
+
+.comment-form-email{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.comment-form-email label{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#email{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 270px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.politica{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************
+
+    Formulario Login
+
+***********************/
+
+#loginform{
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    border: 1px solid #dee2e6;
+    min-width: 320 px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#loginform p{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.login-username input{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-password input{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#emailcontacta{
+    width: 100%;
+}
+
+/*************************
+
+       COMENTARIOS
+    
+**************************/
+
+
+.comment {
+    list-style:none;
+    padding-left: 20px;
+}
+
+.comment  ul{
+    list-style:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.comment  div{
+    list-style:none;
+}
+
+#comentarios > li {
+    border: 1px solid #dee2e6;
+    margin-top: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*********************
+
+      CALENDARIOS
+
+*********************/
+
+
+.calendario li:before {
+    list-style-image: url('../images/calendario.png') !important;
+}
+
+
+/*********************
+
+        AJUSTES
+
+*********************/
+
+.owl-nav{
+    display: none;
+}
+
+.nocursor{
+    cursor: default;
+}
+
+.mismo-size{
+    height: 400px;
+    width: 100%;
+}
+
+.mismo-size img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.unit-1-special:after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0) !important;
+}

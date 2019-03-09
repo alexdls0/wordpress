@@ -1,0 +1,24 @@
+/*Masonry*/
+
+.grid{
+    margin: 0 auto !important;
+    min-width: 400px;
+}
+
+.grid-item {
+    width: 200px !important;
+}
+
+.grid-item--width2 {
+    width: 400px !important;
+}
+
+.grid-item--width3 {
+    width: 400px !important;
+}
+
+.grid-item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
